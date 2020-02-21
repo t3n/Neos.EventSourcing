@@ -15,8 +15,8 @@ use Doctrine\ORM\EntityManagerInterface as DoctrineEntityManagerInterface;
 use Doctrine\ORM\ORMException;
 use Doctrine\ORM\UnitOfWork;
 use Neos\EventSourcing\Exception;
-use Neos\Flow\Log\SystemLoggerInterface;
 use Neos\Flow\Annotations as Flow;
+use Psr\Log\LoggerInterface;
 
 /**
  * A persistence manager for Doctrine-based projectors
@@ -29,7 +29,7 @@ class DoctrineProjectionPersistenceManager
 
     /**
      * @Flow\Inject
-     * @var SystemLoggerInterface
+     * @var LoggerInterface
      */
     protected $systemLogger;
 
