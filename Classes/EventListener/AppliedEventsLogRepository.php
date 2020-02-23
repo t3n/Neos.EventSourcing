@@ -11,7 +11,7 @@ namespace Neos\EventSourcing\EventListener;
  * source code.
  */
 
-use Doctrine\Common\Persistence\ObjectManager as EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 use Neos\Flow\Annotations as Flow;
 
 /**
@@ -31,7 +31,7 @@ class AppliedEventsLogRepository
 {
     /**
      * @Flow\Inject
-     * @var EntityManager
+     * @var EntityManagerInterface
      */
     protected $entityManager;
 

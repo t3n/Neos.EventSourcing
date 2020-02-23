@@ -13,7 +13,7 @@ namespace Neos\EventSourcing\ProcessManager\State;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Neos\Flow\Annotations as Flow;
-use Neos\Flow\Log\SystemLoggerInterface;
+use Psr\Log\LoggerInterface;
 
 /**
  * A repository specialized on Process States
@@ -24,7 +24,7 @@ final class StateRepository
 {
     /**
      * @Flow\Inject
-     * @var SystemLoggerInterface
+     * @var LoggerInterface
      */
     protected $systemLogger;
 
