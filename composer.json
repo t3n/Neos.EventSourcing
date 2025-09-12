@@ -1,4 +1,5 @@
 {
+    "abandoned": true,
     "name": "neos/event-sourcing",
     "type": "neos-package",
     "description": "Lean and opinionated way to integrate Event Sourcing and CQRS pattern in your Flow framework package",
