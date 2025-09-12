@@ -1,8 +1,7 @@
+> [!WARNING]
+> **This plugin is no longer being maintained and there is no superseding package at this time**
+
 # Event Sourcing and CQRS for Flow Framework
-
-_This package is currently under development and not fully tested, please don't use it in production._
-
-Major Rewrite in process.. Stay tuned
 
 ### Minimal Setup
 
